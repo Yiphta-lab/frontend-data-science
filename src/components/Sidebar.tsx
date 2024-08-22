@@ -45,6 +45,13 @@ function Sidebar() {
                 <VscGraphLine className="text-2xl" /><p className='text-xl'>&nbsp; Visualize</p>
               </Link>
             </li>
+            <li>
+              <Link 
+                className='pl-5 pt-5 pb-5 flex'
+                to='/textinput'>
+                <VscGraphLine className="text-2xl" /><p className='text-xl'>&nbsp; Text Input</p>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
