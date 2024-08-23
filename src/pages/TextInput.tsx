@@ -12,7 +12,7 @@ function TextInput() {
   const handleSubmit = async () => {
     setLoading(true);
     try {
-      const response = await fetch('https://backend-data-science.onrender.com/generate-image', {
+      const response = await fetch('https://api.render.com/deploy/srv-cr45hirtq21c73dug6hg?key=5CnDnuUG8J0/generate-image', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
