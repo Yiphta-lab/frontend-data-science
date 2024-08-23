@@ -1,7 +1,3 @@
-// import React from 'react'
-import { FaDatabase } from "react-icons/fa6";
-import { IoIosGitNetwork } from "react-icons/io";
-import { BsHddNetwork } from "react-icons/bs";
 import { VscGraphLine } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 // type Props = {}
