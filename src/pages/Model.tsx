@@ -117,16 +117,16 @@ function Model() {
             <h1 className="text-white">Hellow</h1>
             <h2 className="text-white">{selectedModel}</h2>
             <p className="text-white">
-              <strong>Type:</strong> {modelDetails.model.type}
+              <strong>Type:</strong> {modelDetails.type}
             </p>
             <p className="text-white">
-              <strong>Description:</strong> {modelDetails.model.description}
+              <strong>Description:</strong> {modelDetails.description}
             </p>
             <p className="text-white">
               <strong>Hyperparameters:</strong>
             </p>
             <ul>
-              {Object.entries(modelDetails.model.hyperparameters).map(
+              {Object.entries(modelDetails.hyperparameters).map(
                 ([key, value]) => (
                   <li key={key} className="text-white">
                     <strong>{key}:</strong> {value}
@@ -136,6 +136,7 @@ function Model() {
             </ul>
           </div>
         )}
+        
         {error && <div style={{ color: "red" }}>{error}</div>}
       </div>
     );
