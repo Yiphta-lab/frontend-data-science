@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState, ChangeEvent } from "react";
+import { useState, ChangeEvent } from "react";
 
 function TrainTest() {
   const [trainPercentage, setTrainPercentage] = useState<number>(0);
